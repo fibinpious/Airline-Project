@@ -1,0 +1,23 @@
+.date-picker-container {
+    width: 200px; /* Adjust the width as needed */
+margin-top: 150px; /* Add margin as needed */
+margin-right: 130px;
+position: absolute; /* Add this */
+top: 0; /* Adjust as needed */
+right: 0; /* Adjust as needed */
+}
+.calendar-button{
+  color:rgb(90, 92, 92);
+  /* height: 300px;
+  width: 80px; */font-size: 35px;
+   
+   
+}
+.calendar-button-container{
+  
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left:10px;
+  margin-right: 10px;
+
+}

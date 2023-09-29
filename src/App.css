@@ -1,0 +1,55 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300&display=swap');
+
+.App {
+  background-image: url('C:\Users\248730\Desktop\flight routes\Routes\public\rafael-k-streit-24LIw3veBi4-unsplash.jpg');
+  text-align: center;
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: fixed or scroll */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+h2{
+  font-family: 'Unbounded', sans-serif;
+  color: #F8F4EB;
+}
+.App-header {
+ 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #F8F4EB;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.reloading{
+  vertical-align: middle;
+  
+
+}

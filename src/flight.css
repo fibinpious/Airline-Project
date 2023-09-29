@@ -1,0 +1,404 @@
+/* flight.css */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300&display=swap');
+
+/* Style for the container that holds the "From" and "To" input boxes */
+/* flight.css */
+
+.page{
+    text-align: center;
+    padding-bottom: 210px;
+    padding-right: 150px;
+    
+}
+.suggestion-table{
+    position: absolute;
+
+
+
+}
+.input-container {
+  
+  backdrop-filter: blur(1px);
+  
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* Add this */
+  }
+  
+  /* Style for each input box */
+  .input-box {
+    display: flex;
+    align-items: center; /* Center the label and input vertically */
+    padding: auto;
+    
+  }
+  .switch{
+    font: size 60px;
+  }
+  h3{
+    font-family: 'Unbounded', sans-serif;
+  }
+ 
+  
+  /* Style for the "From" input box */
+  .from {
+    backdrop-filter: blur(4px); /* Apply a blur effect to the background */
+    border: 2px solid rgb(123, 167, 141);
+    transition: border-color 0.3s;
+    border-color: (rgb(39, 128, 76));
+    /* Semi-transparent white border */
+  
+    border-radius: 6px; /* Rounded edges */
+    height: 30px;
+    width: 300px; /* Adjust the width to your desired size */
+    padding: 8px; /* Add some padding for spacing */
+    margin-right: 40px;
+    backdrop-filter: blur(1px);
+   
+   
+  }
+  .from:hover {
+    border-color: rgb(39, 128, 76) /* Change to your desired color on hover */
+  }
+  .to:hover {
+    border-color: rgb(39, 128, 76) /* Change to your desired color on hover */
+  }
+  
+  /* Style for the "To" input box */
+  .to {
+    backdrop-filter: blur(1px); /* Apply a blur effect to the background */
+    border-radius:6px;
+    border: 2px solid rgb(123, 167, 141);    /* Semi-transparent white border */
+  
+    border-radius: 7px; /* Rounded edges */
+    height: 30px;
+    width: 300px; /* Adjust the width to your desired size */
+    padding: 8px; /* Add some padding for spacing */
+    margin-left: 40px;
+    transition: border-color 0.3s;
+    border-color: (rgb(39, 128, 76));
+   
+  }
+  
+  /* Style for the "Recommend Routes" button */
+  .search {
+    background-color: #5270529c; /* Blue color for the button */
+    color: #fff; /* Text color for the button */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove the default button border */
+    border-radius: 4px; /* Rounded edges for the button */
+    cursor: pointer; /* Add pointer cursor on hover */
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+  .calendar-button{
+    height:1px;
+    width:40px;
+  }
+  .calendar-button-container{
+      margin-right: -40px;
+      margin-left: 980px;
+      margin-top: 30px;
+      
+  }
+
+  /* TripType.css */
+
+/* Style for the container that holds the trip type radio buttons */
+/* TripType.css */
+
+/* Style for the container that holds the trip type radio buttons */
+/* Style for the dropdown container */
+.trip-type-container {
+  display: flex;
+  flex-direction: row; /* Ensure elements are in a row */
+  align-items: center;
+  margin-left: -50px; /* Center align the elements vertically */
+}
+
+
+/* Style for each radio button label */
+.trip-type-label {
+  font-family: 'Barlow', sans-serif;
+font-family: 'Unbounded', sans-serif;
+font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin-right: 50px; /* Add spacing between radio buttons */
+  cursor: pointer;
+}
+.class{
+  
+  font-family: 'Barlow', sans-serif;
+font-family: 'Unbounded', sans-serif;
+}
+
+/* Style for the radio button input */
+.trip-type-input {
+  margin-right: 5px; /* Add spacing between the radio button and label text */
+}
+
+/* CSS styles */
+/* CSS styles */
+.suggestion-container {
+  position: absolute; /* Required for positioning the dropdown */
+  display: inline-block;
+  margin-left: 40px; /* Make the container the same width as the input */
+
+}
+.suggestion-dropdown-destination {
+
+  position: absolute;
+  margin-top: 240px;
+  margin-left:60px;
+    background-color: rgba(97, 95, 95, 0.356); /* Add desired background color */
+    border: 1px solid rgb(7, 7, 7); /* Add desired border */
+    list-style-type: none;
+    padding: 0;
+    width: 39%; /* Match the width of the input box */
+    overflow-y: auto;
+    max-height: 160px;
+  }
+
+
+
+
+
+
+
+.suggestion-dropdown {
+  position: absolute;
+  top: 70%; /* Position it below the input box */
+  left: 0;
+  z-index: 1; /* Ensure it's above other content */
+  background-color: rgba(97, 95, 95, 0.356); /* Add desired background color */
+  border: 1px solid rgb(7, 7, 7); /* Add desired border */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 39%; /* Match the width of the input box */
+  overflow-y: auto;
+  max-height: 160px;
+}
+
+
+
+.date-picker-container
+{
+
+    position: absolute;
+    margin-top: -10px;  /* Adjust the top position as needed */
+    margin-right: 0; /* You can also adjust the right position if needed */
+    z-index: 1; /* Ensure it's above other content */
+
+}
+.recommended-routes {
+  display: flex;
+}
+
+
+
+
+/* Style for the dropdown select */
+select {
+  color:white;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Unbounded', sans-serif;
+  padding: 5px; /* Add padding */
+  height: 27px;
+  width: 105px;
+  border: 1px solid rgba(177, 196, 214, 0.3); /* Semi-transparent white border */
+  border-radius: 10px;
+  backdrop-filter: blur(1px); /* Apply a blur effect to the background */
+  background-color: rgba(217, 220, 224, 0.3); /* Semi-transparent white background */
+}
+
+/* Style for dropdown select options */
+select option {
+  padding: 5px; /* Add padding to each option */
+}
+
+/* Style for the selected option */
+select option:checked {
+ 
+  color: rgb(138, 131, 131); /* Text color for the selected option */
+}
+
+/* Style for dropdown select when expanded */
+select:focus {
+  outline: none; /* Remove the outline when focused */
+  
+  
+}
+
+
+.route-details {
+  text-align: center;
+  display: flex; /* Change to flex to make child elements horizontal */
+  flex-wrap: wrap; /* Allow routes to wrap to the next row */
+  justify-content: space-between; /* Add spacing between routes */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+dl {
+  display: inline-block; /* Display the dl element as inline-block */
+  text-align: left; /* Left align the content inside the dl */
+}
+
+dd, dt {
+  margin: 0; /* Remove default margin */
+  display: block; /* Display the dt and dd elements as block elements */
+}
+.custom-card {
+  background-color: rgb(41, 28, 28);
+  border: 1px solid rgb(91, 47, 47);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.custom-card .header {
+  margin-bottom: 12px;
+}
+
+.custom-card h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.custom-card .list dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.custom-card .list dt,
+.custom-card .list dd {
+  flex: 0 0 50%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 0;
+}
+
+.custom-card .list dt {
+  font-weight: bold;
+}
+
+.custom-card .list dd {
+  margin-left: 8px;
+}
+.cale{
+    margin-right: -40px;
+    margin-left: 980px;
+}
+.card {
+width: 100%; /* Set the card width to 100% */
+margin-bottom: 20px; /* Add some space between cards */
+}
+
+.card-body {
+padding: 1.25rem; /* Adjust the padding inside the card body */
+}
+
+.card-title {
+font-size: 1.25rem; /* Adjust the font size of the title */
+margin-bottom: 0.75rem; /* Add some space below the title */
+}
+
+dl.row {
+margin-bottom: 0; /* Remove margin from the definition list */
+}
+
+dt.col-sm-4 {
+font-weight: bold; /* Make the term (dt) bold */
+}
+
+dd.col-sm-8 {
+margin-bottom: 0.5rem; /* Add some space below the definition (dd) */
+}
+
+/* Optionally, you can add more custom styles based on your preferences */
+.trip-type-input {
+  margin-right: 5px; /* Add spacing between the radio button and label text */
+}
+.ticket-details {
+  padding: 20px; /* Increase padding for more space around details */
+  text-align: center; /* Center text within ticket details */
+  margin: auto; /* Center the ticket details horizontally */
+  margin-top: 10px; /* Add some space between ticket header and details */
+}
+
+.ticket-container {
+  display: flex;
+  flex-direction: row; /* Display tickets in a horizontal row */
+  flex-wrap: wrap; /* Allow them to wrap to the next row */
+  justify-content: flex-start; /* Start from the left and wrap as needed */
+  align-items: center; /* Center items vertically within the container */
+  margin-top: 200px; /* Add some space between the container and the tickets */
+  margin-left: -10px; /* Adjust margin to align the first ticket properly */
+}
+
+.ticket {
+  background-color: #978e8e;
+  margin-right: 20px;
+  border-radius: 12px;
+}
+.ticketdiv {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to the next line */
+  overflow-x: auto; /* Add horizontal scrolling if routes overflow */
+}
+
+.ticket-header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 12px; /* Add rounded corners to the header */
+  border-top-right-radius: 12px; /* Add rounded corners to the header */
+}
+
+.ticket-details {
+  padding: 20px; /* Increase padding for more space around details */
+  text-align: center; /* Center text within ticket details */
+  margin: auto; /* Center the ticket details horizontally */
+  margin-top: 10px; /* Add some space between ticket header and details */
+}
+
+
+.book-button {
+  display: block;
+  margin: 10px auto;
+}
+.time-line {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.time-line span {
+  flex: 1;
+  text-align: center;
+}
+
+.time-line svg {
+  margin: 0 10px;
+}
+
+
+.search-button{
+  font-family: 'Unbounded', sans-serif;
+  border-color:rgb(66, 99, 79) ;
+  border-radius: 10px;
+  background-color: rgb(123, 167, 141);
+  width: 180px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load{
+ 
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: -55px;
+}
